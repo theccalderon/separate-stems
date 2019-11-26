@@ -1,0 +1,1 @@
+0 23 * * * find /tmp -type f -atime +1 -delete
