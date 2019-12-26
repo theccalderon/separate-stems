@@ -6,10 +6,10 @@ It follows [fast.ai's](https://github.com/fastai/fastai) to deploy apps on Rende
 
 You can select an audio file and separate the vocals and accompaniment. The vocals/accompaniment will be downloaded by your web browser and the original file will not be saved anywhere.
 
-You can test your changes locally by installing Docker and using the following command:
+You can test your changes locally by doing the following:
 
-```
-docker build -t separate-stems . && docker run --rm -it -p 5000:5000 separate-stems
-```
+1. `git clone https://github.com/theccalderon/separate-stems.git`
+2. `cd separate-stems`
+3. `docker build -t separate-stems . && docker run --rm -it -p 5000:5000 separate-stems`
 
 The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
